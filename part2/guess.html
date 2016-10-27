@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Guess the Number</title>
+    <script src="guess.js"></script>
+    <link type="text/css" rel="stylesheet" href="guess.css"/>
+</head>
+
+<body> <a>A number has been chosen between 1 and 100.</a>
+    <br> <a>Try to guess it:</a>
+    <input type=number id="guess" value="99" min="1" max="100">
+    <button id="clicker" type=button onclick="checkGuess()">Submit Guess</button>
+    <br>
+    <p id="msg">&nbsp</p>
+    <br> <a>Number of guesses remaining: </a><a id="numGuesses">8</a>
+    <div id="guessListDiv">
+      <ul id="pastGuesses">
+      </ul>
+    </div>
+</body>
+
+</html>

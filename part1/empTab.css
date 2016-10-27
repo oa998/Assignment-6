@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+
+}
+#inputdiv {
+    margin: 0 auto;
+    padding: 10px;
+    border: solid black 5px;
+    width: 500px;
+}
+#notify {
+    margin: 0 auto;
+    font-weight: bolder;
+    opacity: 0;
+    font-size: 1.0em;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: black solid 2px;
+}
+td {
+    border: black solid 2px;
+    width: 150px;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MyTitle</title>
+    <script src="empTab.js"></script>
+    <link rel="stylesheet" type="text/css" href="empTab.css"/>
+</head>
+
+<body>
+    <div id="step1">
+        <a class="instructions">Enter your employees' data below.<br></a>
+        <a class="instructions">For each employee, enter the number of hours they worked this week.<br></a>
+        <a class="instructions">Enter "-1" when all of the data has been submitted.<br></a> 
+        <a id="notify">Enter data below:</a>
+        <div id="inputdiv"> <a id="employeeNum">Hours for Employee: </a>
+            <input type=number min = "-1" max="200" id="hrs">
+            <input type=button onclick="verify()" value="Submit"> </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+        * {
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        #guessListDiv {
+            width: 200px;
+            margin: 0 auto;
+            padding-right: 50px;
+        }
+        
+        span {
+            text-decoration: underline;
+            font-weight: 600;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        button {
+            width: 100px;
+        }

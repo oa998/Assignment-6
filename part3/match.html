@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Matching</title>
+    <script src="cards.js"></script>
+    <style>
+        div{
+            position: relative;
+            z-index: 1;
+        }
+        .cover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100vw;
+            min-height: 100vh;
+            background: white;
+            z-index: 5;
+        }
+        p {
+            font-family: monospace;
+            font-weight: 900;
+            font-size: 2em;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>A Matching Game</h1>
+    <div id="initialize"> <a>Select the number of pairs: &nbsp</a>
+        <select id="imgs" name="num_images">
+            <option value="8">8 (4x4)</option>
+            <option value="10">10 (4x5)</option>
+            <option value="12">12 (4x6)</option>
+        </select>
+        <br> <a>Select the time for guessing: &nbsp</a>
+        <select id="secs" name="num_seconds">
+            <option value="3">3 seconds</option>
+            <option value="5">5 seconds</option>
+            <option value="8">8 seconds</option>
+        </select>
+        <br>
+        <a>You will be presented with a grid of "face-down" cards.<br>
+        Try to match the pairs before the time runs out! Ready?</a><br>
+        <button type="button" onclick="startGame()">Start Game!</button>
+    </div>
+</body>
+
+</html>
